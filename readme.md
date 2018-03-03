@@ -45,13 +45,65 @@ Descrição -> Retorna verdadeiro caso os operandos sejam iguais.
 "3" == var1
 3 == '3'
 ```
+* Operador -> Não Igual (```!=```) 
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+Descrição -> Retorna verdadeiro caso os operandos não sejam iguais.
+
+```
+var1 != 4
+var2 != "3"
+```
+
+* Operador -> Estritamente igual (```===```) 
+
+Descrição -> Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
+
+```
+3 === var1
+```
+
+* Operador -> Estritamente não igual (```!==```) 
+
+Descrição -> Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
+
+```
+var1 !== "3"
+3 !== '3'
+```
+
+* Operador -> Maior que (```>```) 
+
+Descrição -> Retorna verdadeiro caso o operando da esquerda seja maior que o da direita.
+
+```
+var2 > var1
+"12" > 2
+```
+
+* Operador -> Maior que ou igual (```>=```) 
+
+Descrição -> Retorna verdadeiro caso o operando da esquerda seja maior ou igual ao da direita.
+
+```
+var2 >= var1
+var1 >= 3
+```
+
+* Operador -> Menor que (```<```) 
+
+Descrição -> Retorna verdadeiro caso o operando da esquerda seja menor que o da direita.
+
+```
+var1 < var2
+"12" < "2"
+```
+
+* Operador -> Menor que ou igua (```<=```) 
+
+Descrição -> Retorna verdadeiro caso o operando da esquerda seja menor ou igual ao da direita.
+
+```
+var1 <= var2
+var2 <= 5
+```
+* Nota: (=>) não é um operador, mas a notação para função de seta
