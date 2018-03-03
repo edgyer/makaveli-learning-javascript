@@ -1,15 +1,14 @@
 # Aprendendo-Javascript
 ## Oque é? 
-
 Javascript é uma linguagem sem tipagem de dados, multiparadigma, de proposito geral.
 
 ## Funções
-
 Uma função em javascript é composta por function segido da assinatura da função que é composta do seu nome e suas entradas.
 uma função pode ainda retorar coisas, ou chamar outras funções.
 
 ## Tipos primitivos de dados
 Para declarar uma variavel basta colocar var seguido do nome da variavel e é opcional atribuir um valor, caso nenhum valor seja atribuido o valor da variavel será undefined.
+
 ## são 6 os tipos de dados primitivos que as variaveis javascript aceitam:
 
 * number para valores numericos
@@ -32,5 +31,5 @@ O nome desse tipo é JSON. Que significa JavaScript Object Notation
   }
 }
 ```
-
-
+## Operadores de atribuição
+##Atribuição## ##Operador encurtado## ```x = y``` ##Significado## ```x = y```
