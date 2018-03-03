@@ -32,76 +32,88 @@ O nome desse tipo é JSON. Que significa JavaScript Object Notation
 }
 ```
 ## Operadores de atribuição
-* Atribuição -> Operador encurtado -> ```x = y``` Significado -> ```x = y```
-* Atribuição de adição -> Operador encurtado -> ```x += y``` Significado -> ```x = x + y```
+* Atribuição:
+Operador encurtado: ```x = y```
+Significado: ```x = y```
+* Atribuição de adição:
+Operador encurtado: ```x += y```
+Significado: ```x = x + y```
 
 ## Operadores de comparação
-* Operador -> Igual (```==```) 
+* Operador: Igual (```==```) 
 
-Descrição -> Retorna verdadeiro caso os operandos sejam iguais.
+Descrição: Retorna verdadeiro caso os operandos sejam iguais.
 
+Exemplos que retornam verdadeiro:
 ```
 3 == var1
 "3" == var1
 3 == '3'
 ```
-* Operador -> Não Igual (```!=```) 
+* Operador: Não Igual (```!=```) 
 
-Descrição -> Retorna verdadeiro caso os operandos não sejam iguais.
+Descrição: Retorna verdadeiro caso os operandos não sejam iguais.
 
+Exemplos que retornam verdadeiro:
 ```
 var1 != 4
 var2 != "3"
 ```
 
-* Operador -> Estritamente igual (```===```) 
+* Operador: Estritamente igual (```===```) 
 
-Descrição -> Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
+Descrição: Retorna verdadeiro caso os operandos sejam iguais e do mesmo tipo.
 
+Exemplos que retornam verdadeiro:
 ```
 3 === var1
 ```
 
-* Operador -> Estritamente não igual (```!==```) 
+* Operador: Estritamente não igual (```!==```) 
 
-Descrição -> Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
+Descrição: Retorna verdadeiro caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
 
+Exemplos que retornam verdadeiro:
 ```
 var1 !== "3"
 3 !== '3'
 ```
 
-* Operador -> Maior que (```>```) 
+* Operador: Maior que (```>```) 
 
-Descrição -> Retorna verdadeiro caso o operando da esquerda seja maior que o da direita.
+Descrição: Retorna verdadeiro caso o operando da esquerda seja maior que o da direita.
 
+Exemplos que retornam verdadeiro:
 ```
 var2 > var1
 "12" > 2
 ```
 
-* Operador -> Maior que ou igual (```>=```) 
+* Operador: Maior que ou igual (```>=```) 
 
-Descrição -> Retorna verdadeiro caso o operando da esquerda seja maior ou igual ao da direita.
+Descrição: Retorna verdadeiro caso o operando da esquerda seja maior ou igual ao da direita.
 
+Exemplos que retornam verdadeiro:
 ```
 var2 >= var1
 var1 >= 3
 ```
 
-* Operador -> Menor que (```<```) 
+* Operador: Menor que (```<```) 
 
-Descrição -> Retorna verdadeiro caso o operando da esquerda seja menor que o da direita.
+Descrição: Retorna verdadeiro caso o operando da esquerda seja menor que o da direita.
 
+Exemplos que retornam verdadeiro:
 ```
 var1 < var2
 "12" < "2"
 ```
 
-* Operador -> Menor que ou igua (```<=```) 
+* Operador: Menor que ou igua (```<=```) 
 
-Descrição -> Retorna verdadeiro caso o operando da esquerda seja menor ou igual ao da direita.
+Descrição: Retorna verdadeiro caso o operando da esquerda seja menor ou igual ao da direita.
 
+Exemplos que retornam verdadeiro:
 ```
 var1 <= var2
 var2 <= 5
