@@ -32,5 +32,26 @@ O nome desse tipo é JSON. Que significa JavaScript Object Notation
 }
 ```
 ## Operadores de atribuição
-* Atribuição <- Operador encurtado ```x = y``` Significado ```x = y```
-* Atribuição de adição <- Operador encurtado ```x += y``` Significado ```x = x + y```
+* Atribuição -> Operador encurtado -> ```x = y``` Significado -> ```x = y```
+* Atribuição de adição -> Operador encurtado -> ```x += y``` Significado -> ```x = x + y```
+
+## Operadores de comparação
+* Operador -> Igual (```==```) 
+
+Descrição -> Retorna verdadeiro caso os operandos sejam iguais.
+
+```
+3 == var1
+"3" == var1
+3 == '3'
+```
+
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
