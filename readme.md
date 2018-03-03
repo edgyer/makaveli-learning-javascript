@@ -118,4 +118,4 @@ Exemplos que retornam verdadeiro:
 var1 <= var2
 var2 <= 5
 ```
-* Nota: (=>) não é um operador, mas a notação para função de seta
+* Nota: (```=>```) não é um operador, mas a notação para função de seta
