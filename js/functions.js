@@ -41,7 +41,35 @@ Exemplo de um json
 
 */
 
-/*
+/* Calculos de m²
 
+// Variáveis
+var L = prompt('Qual a Largura?');
+var H = prompt('Qual a Altura?');
+var B = prompt('Qual a Base?');
+
+// m² de Quadrados ou Retângulos
+function CalcM2() {
+    m2 = L * H;
+    console.log("o m² do Retângulo ou Quadrado:",L,"e",H,"é:",m2);
+}
+
+CalcM2();
+
+// m² de Círculos
+function CalcM2Circ() {
+    m2 = (L * L)/3.14;
+    console.log("o m² da Circunferência de um R:",L,"é:",m2);
+}
+
+CalcM2Circ();
+
+// m² de Triângulos
+function CalcM2Tri() {
+    m2 = (B * H)/2;
+    console.log("o m² do Triângulo: base",B,"e altura:",H,"é:",m2);
+}
+
+CalcM2Tri();
 
  */
