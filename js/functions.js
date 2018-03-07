@@ -81,9 +81,9 @@ function calcAno(AnoDeNasc){
 var anoVictor = calcAno(1990);
 var AnoHugo = calcAno(1948);
 console.log(anoVictor, AnoHugo);
-*/
-//===========================================================================================
-*/
+
+
+
 //calculo de aposentadoria
 function anoAposent(nome, ano){
     var idade = calcAno(ano);
@@ -98,5 +98,3 @@ function anoAposent(nome, ano){
 
 anoAposent('Victor', 1990);
 anoAposent('Hugo', 1948);
-
- */
