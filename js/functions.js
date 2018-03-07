@@ -72,4 +72,31 @@ function CalcM2Tri() {
 
 CalcM2Tri();
 
+//calculo de ano
+function calcAno(AnoDeNasc){
+    var idade = 2016 - AnoDeNasc;
+    return idade;
+}
+
+var anoVictor = calcAno(1990);
+var AnoHugo = calcAno(1948);
+console.log(anoVictor, AnoHugo);
+*/
+//===========================================================================================
+*/
+//calculo de aposentadoria
+function anoAposent(nome, ano){
+    var idade = calcAno(ano);
+    var aposent = 65 - idade;
+
+    if (aposent >= 0) {
+         console.log(nome + ' aposentará em ' + aposent + ' anos');
+    } else {
+        console.log(nome  + ' aposentado');
+    }
+}
+
+anoAposent('Victor', 1990);
+anoAposent('Hugo', 1948);
+
  */
