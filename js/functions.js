@@ -71,6 +71,7 @@ function CalcM2Tri() {
 }
 
 CalcM2Tri();
+*/
 
 //calculo de ano
 function calcAno(AnoDeNasc){
