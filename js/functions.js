@@ -349,3 +349,9 @@ while(i < names.length) {
     console.log(names[i]);
     i++;
 }
+
+var i = names.length - 1; 
+while(i >= 0) {
+    console.log(names[i]);
+    i--;
+}
