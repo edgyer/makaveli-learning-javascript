@@ -315,6 +315,7 @@ mike.calculateAge();
 console.log(mike);
 */
 
+/*
 //Loops and Iteration (Repetição e Interação)
 for (var i = 0; i < 10; i++){
     console.log(i);
@@ -343,6 +344,7 @@ for (var i = names.length - 1; i >= 0; i--){
 }
 */
 
+/*
 //while loops
 var i = 0;
 while(i < names.length) {
@@ -370,3 +372,48 @@ for (var i = 0; i <= 5; i++){
     }
     console.log(i);
 }
+*/
+
+/*
+var Nasc = [1992, 1982, 2000, 2001, 2015];
+var Idade = [];
+
+for (var i = 0; i < Nasc.length; i++){
+    Idade[i] = 2018 - Nasc[i];
+}
+
+for (var i = 0; i < Idade.length; i++){
+    if (Idade[i] >= 18){
+        console.log('Pessoa ' + (i + 1) + ' tem ' + Idade[i] + ' anos e é maior de idade');
+    } else {
+        console.log('Pessoa ' + (i + 1) + ' tem ' + Idade[i] + ' e é menor de idade');
+    }
+}
+*/
+
+/*
+function printIdadeMax(Nasc) {
+
+    var Idade = [];
+    var IdadeMax = [];
+
+    for (var i = 0; i < Nasc.length; i++){
+        Idade[i] = 2018 - Nasc[i];
+    }
+
+    for (var i = 0; i < Idade.length; i++){
+        if (Idade[i] >= 18){
+            console.log('Pessoa ' + (i + 1) + ' tem ' + Idade[i] + ' anos e é maior de idade');
+            IdadeMax.push(true);
+        } else {
+            console.log('Pessoa ' + (i + 1) + ' tem ' + Idade[i] + ' e é menor de idade');
+            IdadeMax.push(false);
+        }
+    }
+    return IdadeMax;
+}
+
+var Nasc = [1992, 1982, 2000, 2001, 2015];
+var Max1 = printIdadeMax(Nasc);
+var Max2 = printIdadeMax([2012, 1915, 1999]);
+*/
