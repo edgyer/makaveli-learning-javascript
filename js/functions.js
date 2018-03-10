@@ -39,8 +39,6 @@ Exemplo de um json
   }
 }
 
-*/
-
 // Variáveis
 /*var L = prompt('Qual a Largura?');
 var H = prompt('Qual a Altura?');
@@ -317,7 +315,7 @@ console.log(mike);
 
 /*
 //Loops and Iteration (Repetição e Interação)
-for (var i = 0; i < 10; i++){
+for (var i = 0; i <= 10; i++){
     console.log(i);
 }
 
@@ -326,6 +324,7 @@ for (var i = 10; i > 0; i--){
 }
 
 var names = ['Victor', 'Erick', 'Nicoly', 'Pamela', 'Yan'];
+*/
 
 /*
 for (var i = 0; i < 5; i++){
