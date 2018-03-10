@@ -416,3 +416,38 @@ var Nasc = [1992, 1982, 2000, 2001, 2015];
 var Max1 = printIdadeMax(Nasc);
 var Max2 = printIdadeMax([2012, 1915, 1999]);
 */
+//Calculadora
+a = prompt("entre com primero valor numérico:");
+op = prompt("entre a operação: (+,-,/,*,%,r)");
+b = prompt("entre com segundo valor numérico:");
+
+if (op == "+"){
+res = soma(a,b);
+} else if (op == "-"){
+    res = subtracao(a,b);
+} else if (op == "*"){
+    res = multiplicacao(a,b);
+} else if (op == "/"){
+    res = divisao(a,b);
+} else if (op == "%"){
+    res = porcentagem(a,b);
+}
+
+console.log('o resultado é:' + res);
+
+function soma(a,b){
+    r = a + b;
+    return r;
+} function subtracao (a,b){
+    r = a - b;
+    return r;
+} function multiplicacao(a,b){
+    r = a * b;
+    return r;
+} function divisao (a,b){
+    r = a / b;
+    return r;
+} function porcentagem(a,b){
+    r = (a / 100) * b;
+    return r;
+}
