@@ -30,13 +30,13 @@ console.log('R$' + ValorPintura(3) + 'kg Valor Pintura')
 
 //CALCULO VALOR BARRA/BRUTO
 function ValorBarraBruto(ValorBruto){
-	return ValorBruto = (CalcKgPerfilBruto(6) * ValorAluminio(18)) + (CalcKgPerfilBruto(6) * ValorPintura(3))
+	return ValorBruto = (CalcKgPerfilBruto(6) * ValorAluminio(18) + CalcKgPerfilBruto(6) * ValorPintura(3))
 }
 console.log('Valor Bruto R$' + ValorBarraBruto())
 
 //CALCULO VALOR BARRA/LIQUIDO
 function ValorBarraLiquido(ValorLiquido){
-	return ValorLiquido = (CalcKgPerfilLiquido(3) * ValorAluminio(18)) + (CalcKgPerfilLiquido(3) * ValorPintura(3)) 
+	return ValorLiquido = (CalcKgPerfilLiquido(3) * ValorAluminio(18) + CalcKgPerfilLiquido(3) * ValorPintura(3)) 
 }
 console.log('Valor Liquído R$' + ValorBarraLiquido())
 
