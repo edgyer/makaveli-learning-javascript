@@ -1,5 +1,5 @@
-function calcIdade(AnoDeNasc){
-    return(new Date()).getFullYear() - AnoDeNasc
+function calcIdade(anoNasc){
+    return(new Date()).getFullYear() - anoNasc
 }
 
 function calcAnoAposentadoria(anoNasc){
@@ -7,7 +7,7 @@ function calcAnoAposentadoria(anoNasc){
 }
 
 function anoAposent(ano){
-    var a = calcAnoAposentadoria(ano)
+    let a = calcAnoAposentadoria(ano)
     if (a >= 0) {
          return false
     } else {
@@ -16,7 +16,7 @@ function anoAposent(ano){
 }
 
 function isMaiorDeIdade(idade){
-    var a = calcIdade(idade)
+    let a = calcIdade(idade)
     if (a >= 18) {
       return true
     }
@@ -24,39 +24,40 @@ function isMaiorDeIdade(idade){
 }
 
 function arrIdades(ano){
-  var a = []
-  for (var i = 0; i < ano.length; i++ ){
+  let a = []
+  for (let i = 0; i < ano.length; i++ ){
     a.push(calcIdade(ano[i]))
   }
   return a
 }
 
 function arrMaiorDeIdade(idade){
-    var a = []
-    for (var i = 0; i < idade.length; i++){
+    let a = []
+    for (let i = 0; i < idade.length; i++){
       a.push(isMaiorDeIdade(idade[i]))
     }
     return a
 }
 
 function arrAnoAposentadoria(ano){
-  var a = []
-  for (var i = 0; i < ano.length; i++ ){
+  let a = []
+  for (let i = 0; i < ano.length; i++){
     a.push(anoAposent(ano[i]))
   }
   return a
 }
 
 function printIdadeMax(Nasc) {
-    var Idade = arrIdades(Nasc)
-    var Maior = arrMaiorDeIdade(Nasc)
-    var Aposentado = arrAnoAposentadoria(Nasc)
+    let Idade = arrIdades(Nasc)
+    let Maior = arrMaiorDeIdade(Nasc)
+    let Aposentado = arrAnoAposentadoria(Nasc)
     while(Idade.length - 1 >= 0){
       pos = Idade.length - 1
-      var x = (Idade[pos] >= 18) ? "é MAIOR de idade" : "é menor de idade"
-      var y = (Aposentado[pos] == true) ? "é APOSENTADO" : "NÃO é aposentado"
+      let x = (Idade[pos] >= 18) ? "é MAIOR de idade" : "é menor de idade"
+      let y = (Aposentado[pos] == true) ? "é APOSENTADO" : "NÃO é aposentado"
       console.log("Pessoa N:", pos, "tem", Idade[pos], "anos e", x, "e", y)
       Idade.pop()
+      Maior.pop()
       Aposentado.pop()
     }
 }

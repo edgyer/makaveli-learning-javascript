@@ -1,7 +1,7 @@
-function calculadora(calc, val1, val2){
+function calculadora(operador, val1, val2){
  a = parseFloat(val1)
  b = parseFloat(val2)
-  switch (calc){
+  switch (operador){
     case "/":
       return divisao(a,b)
     case "*":
@@ -19,7 +19,7 @@ function soma(a,b){
     return a + b
 }
 
-function subtracao (a,b){
+function subtracao(a,b){
     return a - b
 }
 
@@ -27,7 +27,7 @@ function multiplicacao(a,b){
     return a * b
 }
 
-function divisao (a,b){
+function divisao(a,b){
     return a / b
 }
 
